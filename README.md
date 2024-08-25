@@ -1,1 +1,3 @@
-Home of VelNix Hub ~ The Universal Module is Used For Every Game Supported
+Home of VelNix Hub ~ The Module is Used For Every Single Game That is Supported.
+
+THE BLADE BALL MODULE IS NOT THE NURY MODULE
