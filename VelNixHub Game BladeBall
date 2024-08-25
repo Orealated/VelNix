@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNix%20Module%20BladeBall", true))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20BladeBall%20Module", true))();
