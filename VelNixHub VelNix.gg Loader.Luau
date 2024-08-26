@@ -29,20 +29,7 @@ end
 
 
 
---[[ ===== Executor Tierlist: 🟢 = Supported, 🟡 = Supported But With Some Bugs, ⚫ = Not Supported, 🟢⚫ = Maybe Supported But Not Tested.
-(Only Mobile Executors Are Listed.)
-S-Tier - 🟢
-Fluxus, Arceus X.
-
-B-Tier - 🟢⚫
-CodeX, VegaX.
-
-D- Tier - 🟡
-Delta.
-
- F-Tier - ⚫ (CubiX Wasnt Tested But im 1000% Sure it Doesn't Support my Script.)
-CubiX.
-
+--[[ =====
 __     __   _ _   _ _                _   _       _     
 \ \   / /__| | \ | (_)_  __         | | | |_   _| |__  
  \ \ / / _ \ |  \| | \ \/ /  _____  | |_| | | | | '_ \ 
