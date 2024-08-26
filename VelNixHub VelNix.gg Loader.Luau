@@ -12,7 +12,6 @@
 
 
 --// Blade Ball
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Main%20Module", true))();
 if game.PlaceId == 13772394625 or game.PlaceId == 15509350986 or game.PlaceId == 15517169103 or game.PlaceId == 15234596844 then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "[ VelNix Hub - Info ]",
