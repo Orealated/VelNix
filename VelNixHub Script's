@@ -1,0 +1,53 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua", true))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua", true))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua", true))()
+
+Fluent:Notify({
+    Title = [[ [ VelNix Script's - Loaded! ]
+ VelNix: Public Loaded.]],
+    Content = [[Feel Free to Showcase.]],
+    Duration = 5,
+    Type = "Info"
+})
+
+local EName = "Unknown Executor - If You See This Your Executor is Gay."
+if identifyexecutor then
+    EName = identifyexecutor()
+end
+
+local Window = Fluent:CreateWindow({
+    Title = "VelNix Script's",
+    SubTitle = "By [Orealated] - " .. EName,
+    TabWidth = 180,
+    Size = UDim2.fromOffset(500, 250),
+    Acrylic = false,
+    Theme = "Darker",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+	Scripts = Window:AddTab({ Title = "Script's", Icon = "file-terminal" }),
+	Copy = Window:AddTab({ Title = "Copy Script's", Icon = "copy" }),
+}
+
+local S = Tabs.Scripts:AddSection("VelNix - Scripts")
+S:AddParagraph({
+    Title = "[ VelNix Hub: Script's Tab ]",
+    Content = [[ A Tab Where You Can Execute Our Script's or Copy Them.]]
+})
+S:AddButton({
+	Title = "Execute VelNix: Blade Ball",
+	Description = "Executes The Blade Ball Script by [Orealated] And [Eniko] on Discord.",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20BladeBall", true))()
+	end
+})
+S:AddButton({
+	Title = "Join Blade Ball",
+	Description = "Teleports You to Blade Ball",
+	Callback = function()
+		pcall(function()
+		game:GetService("TeleportService"):Teleport(7211666966)
+		end)
+	end
+})
