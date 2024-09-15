@@ -30,24 +30,62 @@ local Tabs = {
 	Copy = Window:AddTab({ Title = "Copy Script's", Icon = "copy" }),
 }
 
-local S = Tabs.Scripts:AddSection("VelNix - Scripts")
+local S = Tabs.Scripts:AddSection("VelNix - Script's")
 S:AddParagraph({
     Title = "[ VelNix Hub: Script's Tab ]",
-    Content = [[ A Tab Where You Can Execute Our Script's or Copy Them.]]
+    Content = [[ A Tab Where You Can Execute Our Script's.]]
 })
 S:AddButton({
 	Title = "Execute VelNix: Blade Ball",
 	Description = "Executes The Blade Ball Script by [Orealated] And [Eniko] on Discord.",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20BladeBall", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20BladeBall", true))();
 	end
 })
 S:AddButton({
 	Title = "Join Blade Ball",
-	Description = "Teleports You to Blade Ball",
+	Description = "Teleports You to Blade Ball.",
 	Callback = function()
 		pcall(function()
-		game:GetService("TeleportService"):Teleport(7211666966)
+		game:GetService("TeleportService"):Teleport(13772394625)
 		end)
 	end
+})
+S:AddParagraph({
+    Title = "Game 2: Flag Wars",
+    Content = [[ The 2nd Game.]]
+})
+S:AddButton({
+	Title = "Execute VelNix: Flag Wars",
+	Description = "Executes The Flag Wars Script by [Orealated] And [Eniko] on Discord.",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20FlagWars", true))();
+	end
+})
+S:AddButton({
+	Title = "Join Flag Wars",
+	Description = "Teleports You to Flag Wars.",
+	Callback = function()
+		pcall(function()
+		game:GetService("TeleportService"):Teleport(3214114884)
+		end)
+	end
+})
+local A = Tabs.Copy:AddSection("VelNix - Copy Script's")
+A:AddParagraph({
+    Title = "[ VelNix Hub: Copy Script's Tab]",
+    Content = [[ A Tab Where You Can Copy The Script's.]]
+})
+A:AddButton({
+    Title = "Copy Script's",
+    Description = "Copys All of Our Scripts.",
+    Callback = function()
+        local Clip = [[
+--// • Blade Ball
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20BladeBall", true))();
+
+--// • Flag Wars
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20FlagWars", true))();]]
+        setclipboard(Clip)
+    end
 })
