@@ -80,8 +80,7 @@ A:AddButton({
     Title = "Copy Script's",
     Description = "Copys All of Our Scripts.",
     Callback = function()
-        local Clip = [[
---// • Blade Ball
+        local Clip = [[--// • Blade Ball
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/VelNix/main/VelNixHub%20Game%20BladeBall", true))();
 
 --// • Flag Wars
