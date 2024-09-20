@@ -5,9 +5,7 @@
    //\\ --// • Total Number of Modules: 3 [I dont log you what woud you evn do with ip?]
    \\// --// • Note: VelNix Hub Automatically Updates ✅
    //\\ --// • Supported Games: Blade Ball, Flag Wars.
-   \\// --// • This File Was Obfuscated With Boronide Obfuscater
-   //\\   And MoonSec V3 With Maximum Security, Anti-Tamper
-   \\//   And Constant Security.
+   \\// --// • Obfuscated: ✅ Via. Mostly Boronide Or MoonSec V3
    //\\
 ===== ]]
 
